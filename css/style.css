@@ -67,8 +67,6 @@
 /*----------------- Carousel style ends ----------------------*/
 
 /*-------------------About Us ------------------------------*/
-/* About Us Section
---------------------------------*/
 
 .section-header h3 {
   font-size: 32px;
@@ -104,12 +102,12 @@
 
 .section-header p {
   text-align: center;
+  line-height: 24px;
+  font-size: 14px;
   padding-bottom: 30px;
   color: #333;
+  font-family: 'Montserrat', sans-serif ;
 }
-
-
-
 
 #about {
   background: url("../img/about-bg.jpg") center top no-repeat fixed;
@@ -203,5 +201,7 @@
   color: #333;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
+  font-family: 'Montserrat', sans-serif ;
 }
 
+/*-----------------------------------About Us Ends -------------------------------------------*/
