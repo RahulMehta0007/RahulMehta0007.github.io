@@ -114,6 +114,7 @@
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
+
 }
 
 #about::before {
@@ -125,6 +126,7 @@
   bottom: 0;
   background: rgba(255, 255, 255, 0.92);
   z-index: 9;
+
 }
 
 #about .container {
@@ -141,6 +143,7 @@
 
 #about .about-col .img {
   position: relative;
+
 
 }
 
@@ -205,3 +208,53 @@
 }
 
 /*-----------------------------------About Us Ends -------------------------------------------*/
+
+/*-----------------E-Learning starts -------------------------------------------------------*/
+
+
+ .bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+
+/* Remove border and add padding to thumbnails */
+#elearning .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+#elearning .thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+#elearning .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+#elearning .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Add a dark gray background color to the modal header and center text */
+#elearning .modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+#elearning .modal-header, .modal-body {
+    padding: 40px 50px;
+}
+
+/*----------------------------E-Learning ends ----------------------------------------*/
