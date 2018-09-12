@@ -112,7 +112,7 @@
 #about {
   background: url("../img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 60px 0;
   position: relative;
 
 }
@@ -216,7 +216,10 @@
     background: #2d2d30;
     color: #bdbdbd;
 }
-
+#elearning
+{
+  padding: 60px 0;
+}
 /* Remove border and add padding to thumbnails */
 #elearning .thumbnail {
     padding: 0 0 15px 0;
@@ -262,7 +265,7 @@
 /*---------------------------Contact us starts----------------------------------------------*/
 #contact
 {
-  margin-top:50px;
+   padding: 60px 0;
 }
 
 #contact .contact-info
@@ -341,3 +344,21 @@ background: #13a456;
 
 
 /*-----------------------------Contact us ends-----------------------------------------------*/
+/*------------------------------Footer starts---------------------------------------*/
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+
+/*------------------------Footer ends------------------------------*/
