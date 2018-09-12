@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ComingSoon!</title>
+	<meta charset="utf-8">
+  <!--To ensure proper rendering and touch zooming-->
+ 	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<!-- Latest compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- External Style sheet -->
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+  	<!-- jQuery library -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<style>
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.bgimg {
+    /* Background image */
+    background-image: url('img/webinar/webinar.jpg');
+    /* Full-screen */
+    height: 100%;
+    
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: black;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: auto;
+
+}
+
+/* Position text in the middle */
+.middle {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    transform: translate(-20%, -20%);
+    text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+</style>
+
+<script type="text/javascript" src="js/countdown.js"></script>
+	
+<body>
+
+
+<!-----------------Navigation Header ------------------------------>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span><!-- Hamburger Menu -->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#myPage">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html#myPage">HOME</a></li>
+        <li><a href="index.html#about">ABOUT</a></li>
+        <li><a href="index.html#elearning">E-LEARNING</a></li>
+        <li><a href="index.html#contact">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">WEBINAR</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-------------------------- Navigation Header Ends ------------------------------->
+
+<div class="bgimg">
+  <div class="middle">
+    <h1 style="font-size:4vw;">COMING SOON</h1>
+    <hr>
+    <h2 style="font-size:2vw;"id="demo">WEBINAR:REMAINING DAYS</h2>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
