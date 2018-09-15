@@ -27,7 +27,7 @@
     $('[data-toggle="tooltip"]').tooltip(); 
       })
 </script>
-
+<script type="text/javascript" src="js/pop.js"></script>
 
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -47,8 +47,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
+        <li><a href="#courses">COURSES</a></li>
         <li><a href="#elearning">E-LEARNING</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li class="dropdown">
@@ -146,7 +147,7 @@
                 <img src="img/about-mission.jpg" alt="" class="img-responsive">
                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <h2 class="title"><a href="#myPage">Our Mission</a></h2>
               <p>
                 We aspire to make Pinnacluo. A leading market leader for its learning platform and one stop
                 solution for consulting, recognized for its professional Learning & development and academic
@@ -162,7 +163,7 @@
                 <img src="img/about-plan.jpg" alt="" class="img-responsive">
                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Our Plan</a></h2>
+              <h2 class="title"><a href="#myPage">Our Plan</a></h2>
               <p>
                 Our corporate trainings have been designed with the experts keeping the technology in mind and
                 we offer you customized solutions for all your training needs. Pinnaculo is an extended solutions
@@ -178,7 +179,7 @@
                 <img src="img/about-vision.jpg" alt="" class="img-responsive">
                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <h2 class="title"><a href="#myPage">Our Vision</a></h2>
               <p>
                 To provide quality and cost efficient academic and professional training designed to meet the
                 unique requirements of professionals across the globe. Delivery of quality education in a variety of
@@ -194,6 +195,146 @@
 
     <!----------------------------------About Us Ends ---------------------------->
 
+    <!---------------------------------Courses------------------------------------>
+
+<section id="courses">
+   <div class="container">
+   <header class="section-header">
+      <h3>Courses</h3>
+   </header>
+
+  
+
+      <div class="row"> 
+
+         <div class="col-md-6">
+             <a href="#technical-course-list" data-toggle="collapse">
+             <img id="main-img-tech" src="img/courses-mini/technical/tech-main.jpg" alt="Image: Technical Courses" class="img-rounded img-responsive" >
+             </a>
+             <div id="technical-course-list" class="collapse">
+               <ul >
+                <table>
+                   
+                   <tr>
+                    
+                    <td>
+                      <li><a href="#main-img-tech" data-toggle="popover" id="courses-data-science" >Data Science</a></li>
+                    </td>
+                    <td>
+                      <li ><a href="#main-img-tech" data-toggle="popover" id="courses-data-analytics">Data Analytics</a></li></td>
+                  </tr>
+
+              <tr>
+
+                <td>
+                  <li ><a href="#main-img-tech" data-toggle="popover" id="courses-big-data"      data-trigger="focus">Big Data</a></li>
+                </td>
+                <td>
+                  <li><a href="#main-img-tech"  data-toggle="popover" id="courses-devops"        data-trigger="focus">Devops</a></li>
+                </td>
+              </tr>
+
+              <tr>
+                <td><li><a href="#main-img-tech"  data-toggle="popover" id="courses-full-stack"    data-trigger="focus">Full Stack</a></li></td>
+                <td><li><a href="#main-img-tech"  data-toggle="popover" id="courses-blockchain"    data-trigger="focus">BlockChain</a></li></td>
+              </tr>
+
+               <tr>
+                <td><li><a href="#main-img-tech"  data-toggle="popover" id="courses-aws"           data-trigger="focus">AWS</a></li></td>
+                <td><li><a href="#main-img-tech"  data-toggle="popover" id="courses-python"        data-trigger="focus">Python</a></li></td>
+              </tr>
+
+               <tr>
+                <td><li><a href="#main-img-tech"  data-toggle="popover" id="courses-react"         data-trigger="focus">React JS</a></li></td>
+                <td><li><a href="#main-img-tech"  data-toggle="popover" id="courses-ux-ui"         data-trigger="focus">UX/UI</a></li></td>
+              </tr>
+
+               <tr>
+                <td>
+                  <li><a href="#main-img-tech"  data-toggle="popover" id="courses-agile"         data-trigger="focus">Agile & Scrum</a></li>
+                </td>
+                <td><li><a href="#main-img-tech"  data-toggle="popover" id="courses-android"       data-trigger="focus">Android</a></li></td>
+              </tr>
+
+              <tr>
+                <td>
+                <li><a href="#main-img-tech"  data-toggle="popover" id="courses-cyber-security"data-trigger="focus">Cyber Security</a></li></td>
+              </tr>
+
+            </table>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="col-md-6">
+        <a href="#nontechnical-course-list" data-toggle="collapse">
+        <img src="img/courses-mini/non-technical/nontech-main.jpg" alt="Image: Non Technical Courses" 
+        class="img-rounded img-responsive">
+        </a>
+        <div id="nontechnical-course-list" class="collapse">
+          <ul>
+            <table>
+              
+              <tr>
+                <td>
+                  <li><a href="#main-img-tech" data-toggle="popover" id="courses-leadership-skills"   data-trigger="focus">Leadership Skills</a></li>
+                </td>
+                <td>
+                  <li><a href="#main-img-tech" data-toggle="popover" id="courses-personality-dev"  data-placement="left"  data-trigger="focus">Personality Development</a></li>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <li><a href="#main-img-tech" data-toggle="popover" id="courses-business-etiquette"  data-trigger="focus">Business Etiquette</a></li>
+                </td>
+                <td>
+                  <li><a href="#main-img-tech" data-toggle="popover" id="courses-nlp"     data-placement="left"      data-trigger="focus">Neuro-Linguistic Programming</a></li>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <li><a href="#main-img-tech" data-toggle="popover" id="courses-client-service"    data-trigger="focus">Client Service</a></li>
+                </td>
+                <td>
+                  <li><a href="#main-img-tech" data-toggle="popover" id="courses-design-thinking" data-placement="left"  data-trigger="focus">Design Thinking</a></li>
+
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <li><a href="#main-img-tech" data-toggle="popover" id="courses-sales"               data-trigger="focus">Sales Training</a></li>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <li><a href="#main-img-tech" data-toggle="popover" id="courses-life-skills"         data-trigger="focus">Life Skills</a></li>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <li><a href="#main-img-tech" data-toggle="popover" id="courses-communication-skills"data-trigger="focus">Communication skills</a></li>
+                </td>
+              </tr>
+
+            </table>
+      
+          </ul>
+        </div>
+      </div>
+
+    </div>  <!--row-->  
+
+   </div> <!--container -->
+
+</section>
+
+<!-----------------------------------Courses Ends--------------------------------------->
     <!---------------------------------------------ELearning ---------------------------------------------------------- -->
 <section id="elearning" >
     <header class="section-header">
