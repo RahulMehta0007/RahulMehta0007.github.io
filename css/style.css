@@ -1,6 +1,13 @@
 /*   Navigation Header Styles   */
 
-
+.container-fluid
+  {
+    padding-left: 0px;
+  }
+  .navbar-brand
+  {
+    padding-left: 25px;
+  }
 /* Add a dark background color with a little bit see-through . Changes NavbarBlack*/ 
 .navbar {
     margin-bottom: 0;
@@ -9,7 +16,7 @@
     font-size: 11px !important;  /* !important override default style*/
     letter-spacing: 4px;
     opacity:0.9;
-}
+  }
 
 /* Add a gray color to all navbar links fonts*/
 .navbar li a, .navbar .navbar-brand { 
