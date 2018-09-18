@@ -1,0 +1,33 @@
+/*---------------------------- Heading------------------------------*/ 
+.data-heading {padding: 60px 20px; font-size: 22px; font-weight:900; margin: 0px; line-height: 35px;padding-bottom: 30px;font-family: 'Montserrat', sans-serif;background: #fceaea;text-align: center;}
+.bannersc{background: #010000 center; background-size: cover;}
+.padcrouse {padding: 38px 20px 39px;}
+.text-white{color: white;font-family: 'Montserrat', sans-serif;text-align: center;}
+.sectionbg2 {background: #fceaea; padding: 30px 0px;}
+
+
+
+
+.vertical-side-line
+{
+	border-right :1px solid red;
+	color: #6c757d;
+}
+
+
+.text-grey
+{
+	color:#6c757d;
+}
+.row .col-md-2 img
+{
+	margin-left: 10px;
+	margin-bottom: 3px;
+}
+sub
+{
+	font-size: 15px !important;
+}
+
+
+/*--------------------------Outline Headedr --------------------------*/
