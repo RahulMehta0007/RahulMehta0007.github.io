@@ -1,9 +1,9 @@
 /*---------------------------- Heading------------------------------*/ 
-.data-heading {padding: 80px 20px; font-size: 22px; font-weight:900; margin: 0px; line-height: 35px;padding-bottom: 30px;font-family: 'Montserrat', sans-serif;background: #fceaea;text-align: center;}
+.data-heading {padding: 80px 20px; font-size: 22px; font-weight:900; margin: 0px; line-height: 35px;padding-bottom: 30px;font-family: 'Montserrat', sans-serif;background: 	#F5F5DC;text-align: center;}
 .bannersc{background: #010000 center; background-size: cover;}
 .padcrouse {padding: 38px 20px 39px;}
 .text-white{color: white;font-family: 'Montserrat', sans-serif;text-align: center;}
-.sectionbg2 {background: #fceaea; padding: 30px 0px;}
+.sectionbg2 {background: #F5F5DC; padding: 30px 0px;}
 
 
 
@@ -74,7 +74,7 @@ font-weight: 400 !important;
 
 .list-style
 {
-	background-color: #ccffff;
+	background-color: white;
 	margin-left: 90px;
 	margin-right: 490px;
 	font-weight: 550;
