@@ -11,16 +11,16 @@
 #learning-unleased
 {
   padding-left: 0px;
-  padding-top: 20px;
+  margin-top:5px;
   position: absolute;
 }
 #globe-icon
 {
   float: left;
  position: absolute;
- left:30px;
- bottom: 10px;
- top:10px;
+ left:32px;
+ top:7px;
+
 }
 
 /* Add a dark background color with a little bit see-through . Changes NavbarBlack*/ 
