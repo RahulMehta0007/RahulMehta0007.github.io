@@ -312,9 +312,34 @@ padding-left: 100px;
 {
  
   color:#18d36e;
+  padding-left: : 50px;
   
 }
 
+
+#course-header-technical
+{
+font-weight: 600;
+margin-left: 200px;
+margin-bottom: 20px;
+}
+
+#course-header-non-technical
+{
+font-weight: 600;
+margin-left: 200px;
+margin-bottom: 20px;
+
+}
+
+.padding-unordered-list-tech
+{
+  padding-left: 120px;
+}
+.padding-unordered-list-non-tech
+{
+  padding-left: 100px;
+}
 
 /*---------------------------------Courses ends --------------------------------------*/
 /*-----------------E-Learning starts -------------------------------------------------------*/
